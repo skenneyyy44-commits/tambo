@@ -37,7 +37,7 @@
   },
 
   // Connect to host Supabase PostgreSQL (port 54322)
-  // Prefer host DATABASE_URL if set, but it must be reachable from inside Docker.
+  // Host DATABASE_URL is intentionally not inherited.
   // WARNING: Be careful not to point this at production from your host env.
   // For local Supabase, use host.docker.internal:54322 (not localhost).
   "containerEnv": {
